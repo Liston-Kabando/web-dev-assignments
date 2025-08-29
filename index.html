@@ -1,0 +1,113 @@
+<link rel="stylesheet" href="styles.css">
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Enhanced Form Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Welcome to the Showcase Page</h1>
+    <p>Explore examples of lists, tables, media elements, and a fully functional form below.</p>
+  </header>
+
+  <!-- Section demonstrating lists -->
+  <section>
+    <h2>Features at a Glance</h2>
+    <ul>
+      <li>Easy-to-read bullet lists.</li>
+      <li>Structured data using tables.</li>
+      <li>Responsive media inclusion.</li>
+      <li>An accessible, validated HTML5 form.</li>
+    </ul>
+  </section>
+
+  <!-- Section with table -->
+  <section>
+    <h2>Comparison Table</h2>
+    <table>
+      <thead>
+        <tr><th>Element</th><th>Purpose</th><th>Benefit</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Lists</td><td>Organize items</td><td>Clear structure</td></tr>
+        <tr><td>Tables</td><td>Compare info</td><td>Efficient layout</td></tr>
+        <tr><td>Media</td><td>Visual enhancement</td><td>Engagement</td></tr>
+        <tr><td>Form</td><td>Collect user input</td><td>Functionality + validation</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Section with media -->
+  <section>
+    <h2>Sample Image</h2>
+    <p>Below is a form template sample to show visual form structure:</p>
+    <img src="https://blog.hubspot.com/website/html-form-template" alt="Example form layout with multiple fields and labels">
+  </section>
+
+  <!-- Accessible and validated HTML5 form -->
+  <section>
+    <h2>Sign-Up Form</h2>
+    <form action="#" method="post" autocomplete="on">
+      <fieldset>
+        <legend>Personal Details</legend>
+        <label for="fullname">Full Name *</label>
+        <input type="text" id="fullname" name="fullname" required minlength="3" placeholder="e.g., Jane Doe">
+        
+        <label for="email">Email Address *</label>
+        <input type="email" id="email" name="email" required placeholder="you@example.com">
+        
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" pattern="^\+?\d{7,15}$" title="Include country code, digits only" placeholder="+1234567890">
+      </fieldset>
+
+      <fieldset>
+        <legend>Account Security</legend>
+        <label for="username">Username *</label>
+        <input type="text" id="username" name="username" required minlength="5" maxlength="15" pattern="[A-Za-z0-9_]+" title="5–15 characters: letters, numbers, underscore">
+        
+        <label for="password">Password *</label>
+        <input type="password" id="password" name="password" required minlength="8" placeholder="At least 8 characters">
+        
+        <label for="confirm">Confirm Password *</label>
+        <input type="password" id="confirm" name="confirm" required minlength="8" placeholder="Re-type your password">
+      </fieldset>
+
+      <fieldset>
+        <legend>Profile Info</legend>
+        <label for="birthdate">Birth Date *</label>
+        <input type="date" id="birthdate" name="birthdate" required>
+        
+        <label for="color">Favorite Color</label>
+        <input type="color" id="color" name="color" value="#ff0000">
+        
+        <label for="bio">Short Bio</label>
+        <textarea id="bio" name="bio" rows="4" maxlength="200" placeholder="Tell us about yourself (max 200 characters)"></textarea>
+      </fieldset>
+
+      <fieldset>
+        <legend>Preferences</legend>
+        <label>
+          <input type="radio" name="newsletter" value="yes" checked>
+          Subscribe to newsletter
+        </label>
+        <label>
+          <input type="checkbox" name="terms" required>
+          I agree to the <a href="#">terms and conditions</a> *
+        </label>
+      </fieldset>
+
+      <button type="submit">Register</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Thank you for visiting! All form features use only HTML5—no JavaScript validation involved.</p>
+  </footer>
+
+</body>
+</html>
