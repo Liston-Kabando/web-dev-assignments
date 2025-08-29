@@ -1,0 +1,73 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+  max-width: 800px;
+  background-color: #f9f9f9;
+}
+
+/* Header & Footer */
+header, footer {
+  text-align: center;
+  margin: 2em 0;
+  padding: 1em;
+  background-color: #e3e3e3;
+  border-radius: 8px;
+}
+
+/* Box Model in Action */
+section {
+  margin: 20px 0;
+  padding: 15px;
+  border: 2px solid #ccc;
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+/* Tables */
+table, th, td {
+  border: 1px solid #666;
+  border-collapse: collapse;
+  padding: 0.5em;
+}
+th {
+  background-color: #f0f0f0;
+}
+
+/* Form Styling */
+fieldset {
+  margin-bottom: 1em;
+  padding: 1em;
+  border: 2px solid #aaa;
+}
+legend {
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.3em;
+}
+
+input, select, textarea {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 0.5em;
+  padding: 0.4em;
+  border: 1px solid #999;
+  border-radius: 4px;
+}
+
+button {
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #005fa3;
+}
